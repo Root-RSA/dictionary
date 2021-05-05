@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-04-18 09:14+0300\n"
+"PO-Revision-Date: 2021-04-20 11:31+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: Views/index.php\n"
+"X-Poedit-SearchPath-1: Views/result.php\n"
+"X-Poedit-SearchPath-2: Views/components/new_word.php\n"
+"X-Poedit-SearchPath-3: Views/components/positive_result.php\n"
+"X-Poedit-SearchPath-4: Views/components/reg_log.php\n"
+"X-Poedit-SearchPath-5: .\n"
+
+#: Controllers/InsertionsController.php:18
+msgid "Слово уже есть в словаре"
+msgstr "Αυτή η λέξη υπάρχει ήδη στο λεξικό"
+
+#: Controllers/InsertionsController.php:27
+msgid "Слово успешно внесено"
+msgstr "Η λέξη επιτυχώς εισήχθη"
+
+#: Controllers/InsertionsController.php:31
+msgid "Что-то пошло не так и слово не было внесено"
+msgstr "Κάτι δεν πήγε καλά και η λέξη δεν εισάχθηκε"
+
+#: Controllers/LoginController.php:19
+msgid "Пользователь с таким именем не найден. Попробуйте еще раз!"
+msgstr "Ο χρήστης με τέτοιο όνομα δεν βρέθηκε. Παρακαλούμε, δοκίμασε πάλι!"
+
+#: Controllers/LoginController.php:35
+msgid "Неверный пароль, пожалуйста, попробуйте ещё раз"
+msgstr "Λάθος κωδικός, παρακαλούμε, δοκίμασε πάλι"
+
+#: Controllers/RegistrationController.php:25
+msgid ""
+"Другой пользователь с таким именем уже зарегистрирован. Попоробуйте другое имя."
+msgstr "Άλλος χρήστης με το ίδιο όνομα ήδη υπάρχει. Δοκίμασε άλλο όνομα χρήστη."
+
+#: Controllers/RegistrationController.php:40
+msgid ""
+"Регистрация не была завершена по техническим причинам. Пожалуйста, попробуйте "
+"другое сочетания имени пользователя и пароля"
+msgstr ""
+"Η εγγραφή δεν ολοκληρώθηκε για τεχνικούς λόγους. Παρακαλούμε, δοκίμασε άλλο "
+"συνδυασμό ονόματος χρήστη και κωδικού."
+
+#: Models/InsertionModel.php:25 Models/InsertionModel.php:84
+#: Models/SearchModel.php:25 Models/SearchModel.php:55 Models/SearchModel.php:68
+#: Models/SearchModel.php:80 Models/SearchModel.php:92 Models/SearchModel.php:131
+msgid "Ошибка выполнения запроса: "
+msgstr "Σφάλμα κατά την εκτέλεση:"
+
+#: Models/InsertionModel.php:42
+msgid "Вы не ввели греческое слово"
+msgstr "Δεν έχεις εισάγει την Ελληνική λέξη"
+
+#: Models/InsertionModel.php:46
+msgid "Вы не ввели перевод слова"
+msgstr "Δεν έχεις εισάγει την μετάφραση της λέξης"
+
+#: Views/components/new_word.php:2
+msgid "Хотите внести новое слово в словарь?"
+msgstr "Θέλεις να προσθέσεις νέο λήμμα στο λεξικό;"
+
+#: Views/components/new_word.php:3
+msgid "Выберите часть речи"
+msgstr "Διάλεξε το μέρος του λόγου"
+
+#: Views/components/new_word.php:5
+msgid "Глагол"
+msgstr "Ρήμα"
+
+#: Views/components/new_word.php:6
+msgid "Существительное"
+msgstr "Ουσιαστικό"
+
+#: Views/components/new_word.php:7
+msgid "Прилагательное"
+msgstr "Επίθετο"
+
+#: Views/components/new_word.php:8
+msgid "Наречие"
+msgstr "Επίρρημα"
+
+#: Views/components/new_word.php:10
+msgid "Выбрать"
+msgstr "Επιλογή"
+
+#: Views/components/new_word.php:15
+msgid "Тип: переходный или непереходный"
+msgstr "Τύπος: μεταβατικό ή αμετάβατο"
+
+#: Views/components/new_word.php:18
+msgid "переходный"
+msgstr "μεταβατικό"
+
+#: Views/components/new_word.php:19
+msgid "непереходный"
+msgstr "αμετάβατο"
+
+#: Views/components/new_word.php:21
+msgid "Введите глагол на греческом"
+msgstr "Γράψε το ρήμα στα Ελληνικά"
+
+#: Views/components/new_word.php:22 Views/components/new_word.php:40
+#: Views/components/new_word.php:51 Views/components/new_word.php:62
+msgid "Греческое слово"
+msgstr "Ελληνική λέξη"
+
+#: Views/components/new_word.php:23 Views/components/new_word.php:41
+#: Views/components/new_word.php:52 Views/components/new_word.php:63
+msgid "Введите русский перевод"
+msgstr "Γράψε την Ρωσική μετάφραση"
+
+#: Views/components/new_word.php:24 Views/components/new_word.php:42
+#: Views/components/new_word.php:53 Views/components/new_word.php:64
+msgid "Перевод"
+msgstr "Μετάφραση"
+
+#: Views/components/new_word.php:25 Views/components/new_word.php:43
+#: Views/components/new_word.php:54 Views/components/new_word.php:65
+msgid "Введите, если есть, примечания"
+msgstr "Γράψε σημειώσεις, αν έχει"
+
+#: Views/components/new_word.php:26 Views/components/new_word.php:44
+#: Views/components/new_word.php:55 Views/components/new_word.php:66
+msgid "Примечание"
+msgstr "Σημείωση"
+
+#: Views/components/new_word.php:27 Views/components/new_word.php:45
+#: Views/components/new_word.php:56 Views/components/new_word.php:67
+msgid "Внести"
+msgstr "Εισαγωγή"
+
+#: Views/components/new_word.php:32
+msgid "Род: мужской, женский, средний"
+msgstr "Γένος: αρσικό, θηλυκό, ουδέτερο"
+
+#: Views/components/new_word.php:39
+msgid "Введите существительное на греческом"
+msgstr "Γράψε το ουσιαστικό στα Ελληνικά"
+
+#: Views/components/new_word.php:50
+msgid "Введите прилагательное на греческом"
+msgstr "Γράψε το επίθετο στα Ελληνικά"
+
+#: Views/components/new_word.php:61
+msgid "Введите наречение на греческом"
+msgstr "Γράψε το επίρρημα στα Ελληνικά"
+
+#: Views/components/positive_result.php:23
+msgid "Примеры в предложениях"
+msgstr "Παραδείγματα σε προτάσεις"
+
+#: Views/components/reg_log.php:2
+msgid "Регистрация"
+msgstr "Εγγραφή"
+
+#: Views/components/reg_log.php:5 Views/components/reg_log.php:18
+msgid "Ваш логин"
+msgstr "Το όνομα χρήστη σου"
+
+#: Views/components/reg_log.php:8
+msgid "Ваш email"
+msgstr "Το email σου"
+
+#: Views/components/reg_log.php:11 Views/components/reg_log.php:21
+msgid "Ваш пароль"
+msgstr "Ο κωδικός σου"
+
+#: Views/components/reg_log.php:12
+msgid "Вперёд"
+msgstr "Αποστολή"
+
+#: Views/components/reg_log.php:15
+msgid "Вход"
+msgstr "Είσοδος"
+
+#: Views/components/reg_log.php:22
+msgid "Войти"
+msgstr "Είσοδος"
+
+#: Views/components/reg_log.php:28
+msgid ""
+"Добро пожаловать на страницу онлайн греческо-русского словаря. Данный словарь "
+"является наиболее полным из существующих на данный момент."
+msgstr ""
+"Καλώς όρισες στη σελίδα του ηλεκτρονικού Ελληνο-Ρωσικού λεξικού. Το "
+"συγκεκριμένο λεξικό είναι το πληρέστερο από όλα τα υπάρχοντα προς στιγμήν."
+
+#: Views/components/reg_log.php:31
+msgid ""
+"Несмотря на свою полноту, есть слова, которые вы не сможете в нём найти. "
+"Поэтому при желании вы можете его пополнять сами, предварительно "
+"зарегистрировавшись."
+msgstr ""
+"Παρόλη την πληρότητα του υπάρχουν λέξεις που δεν θα βρείς εδώ. Για τον λόγο "
+"αυτό παρέχεται δυνατότητα πρόσθεσης νέων λημμάτων. Μπορείς να το κάνεις εφόσον "
+"εγγραφείς ως χρήστης."
+
+#: Views/index.php:4
+msgid "Словарь греческого языка"
+msgstr "Ελληνο-Ρωσικό λεξικό"
+
+#: Views/index.php:39 Views/index.php:46
+msgid "БОЛЬШОЙ"
+msgstr "ΜΕΓΑΛΟ"
+
+#: Views/index.php:40 Views/index.php:47
+msgid "ГРЕЧЕСКО-РУССКИЙ"
+msgstr "ΕΛΛΗΝΟ-ΡΩΣΙΚΟ"
+
+#: Views/index.php:41 Views/index.php:48
+msgid "СЛОВАРЬ"
+msgstr "ΛΕΞΙΚΟ"
+
+#: Views/index.php:53
+msgid "введите слово"
+msgstr "πληκτρολόγησε τη λέξη"
+
+#: Views/result.php:3
+msgid "Ничего не найдено по вашему запросу"
+msgstr "Δυστυχώς τίποτα δεν βρέθηκε, παρακαλούμε, δοκίμασε άλλη λέξη"
+
+#~ msgid "Внети"
+#~ msgstr "Εισαγωγή"

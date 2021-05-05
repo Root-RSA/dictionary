@@ -1,0 +1,27 @@
+<?php
+/**
+3 * Example Implementation of PSR-0
+4 *
+5 * @param $className
+6 */
+function autoload($className)
+{
+    $className = ltrim($className, '\\');
+    $fileName = '';
+    $namespace = '';
+    if ($lastNsPos = strrpos($className, '\\')) {
+        $namespace = substr($className, 0, $lastNsPos);
+        $className = substr($className, $lastNsPos + 1);
+        $fileName = str_replace('\\', DIRECTORY_SEPARATOR, $namespace) .
+        DIRECTORY_SEPARATOR;
+    }
+    $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
+
+    if (file_exists($fileName)) {
+        require $fileName;
+    } else {
+        header('location: ../views/notfound');
+    }
+}
+
+spl_autoload_register('autoload');

@@ -1,0 +1,1 @@
+<div class="sign-out"><a href="login/logout"><img src="img/exit.png"></a></div>
