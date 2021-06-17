@@ -1,7 +1,7 @@
 RewriteEngine On
 
 #Define a base path of the app
-RewriteBase /dict
+RewriteBase /project_root
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
